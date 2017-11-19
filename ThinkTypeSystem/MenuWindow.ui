@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuWindow</class>
+ <widget class="QMainWindow" name="MenuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Think-Type System</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>331</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="trainBtn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Train</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="testBtn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Test</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="msgBtn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Message</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="logoutBtn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Log out</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>Home</string>
+    </property>
+    <addaction name="actionMenu"/>
+   </widget>
+   <widget class="QMenu" name="menuTRain">
+    <property name="title">
+     <string>Train</string>
+    </property>
+    <addaction name="actionTraining"/>
+    <addaction name="actionTrained_Record"/>
+   </widget>
+   <widget class="QMenu" name="menuTest">
+    <property name="title">
+     <string>Test</string>
+    </property>
+    <addaction name="actionLetter_Test"/>
+    <addaction name="actionTest_Records"/>
+   </widget>
+   <widget class="QMenu" name="menuMsg">
+    <property name="title">
+     <string>Msg</string>
+    </property>
+    <addaction name="actionMessage"/>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menuTRain"/>
+   <addaction name="menuTest"/>
+   <addaction name="menuMsg"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionMenu"/>
+   <addaction name="separator"/>
+   <addaction name="actionTraining"/>
+   <addaction name="actionLetter_Test"/>
+   <addaction name="actionMessage"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionMenu">
+   <property name="icon">
+    <iconset resource="MyResources.qrc">
+     <normaloff>:/MyIcon/Resources/images/home.png</normaloff>:/MyIcon/Resources/images/home.png</iconset>
+   </property>
+   <property name="text">
+    <string>Menu</string>
+   </property>
+   <property name="toolTip">
+    <string>Go back to Menu</string>
+   </property>
+  </action>
+  <action name="actionTraining">
+   <property name="icon">
+    <iconset resource="MyResources.qrc">
+     <normaloff>:/MyIcon/Resources/images/brain.png</normaloff>:/MyIcon/Resources/images/brain.png</iconset>
+   </property>
+   <property name="text">
+    <string>Training</string>
+   </property>
+   <property name="toolTip">
+    <string>Training Mode</string>
+   </property>
+  </action>
+  <action name="actionLetter_Test">
+   <property name="icon">
+    <iconset resource="MyResources.qrc">
+     <normaloff>:/MyIcon/Resources/images/test.png</normaloff>:/MyIcon/Resources/images/test.png</iconset>
+   </property>
+   <property name="text">
+    <string>Letter Test</string>
+   </property>
+   <property name="toolTip">
+    <string>Test Mode</string>
+   </property>
+  </action>
+  <action name="actionTest_Records">
+   <property name="icon">
+    <iconset resource="MyResources.qrc">
+     <normaloff>:/MyIcon/Resources/images/file.png</normaloff>:/MyIcon/Resources/images/file.png</iconset>
+   </property>
+   <property name="text">
+    <string>Test Records</string>
+   </property>
+  </action>
+  <action name="actionMessage">
+   <property name="icon">
+    <iconset resource="MyResources.qrc">
+     <normaloff>:/MyIcon/Resources/images/message.png</normaloff>:/MyIcon/Resources/images/message.png</iconset>
+   </property>
+   <property name="text">
+    <string>Message</string>
+   </property>
+   <property name="toolTip">
+    <string>Message Mode</string>
+   </property>
+  </action>
+  <action name="actionTrained_Record">
+   <property name="icon">
+    <iconset resource="MyResources.qrc">
+     <normaloff>:/MyIcon/Resources/images/file.png</normaloff>:/MyIcon/Resources/images/file.png</iconset>
+   </property>
+   <property name="text">
+    <string>Trained Records</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MyResources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
