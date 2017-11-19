@@ -1,5 +1,5 @@
-#Some instructions for the program setup.#
-##
+# Think-Type System #
+The MSc(CompSc) Dissertation Project by Yingshu Chen
 
 
 ## Breifing ##
@@ -19,7 +19,7 @@ This system is a "typing" system via Brainwave Control using the Emotiv heaset.
  * 4) Test Windown (TestWin)
  * 5) Message Window (MsgWin)
 
-##Platforms##
+## Platforms ##
 Programing Environmet:
 Visual Studio 2015 + Qt3.5.0_msvc(Qt Creater 4.2.1)
 
@@ -28,7 +28,9 @@ OS: Win10 64bit
 Language: C++
 
 
-##Project setup##
+## Project Setup ##
+Some instructions for the program setup. 
+
 1. Additional Include Directories: Add the folder "include"
 2. Additional Library Directories: Add the folder "lib/win32"
 3. Input: Add the library "edk.lib"
