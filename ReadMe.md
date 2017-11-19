@@ -2,7 +2,7 @@
 The MSc(CompSc) Dissertation Project by Yingshu Chen
 
 
-## Breifing ##
+## Briefing ##
 This system is a "typing" system via Brainwave Control using the Emotiv heaset.
 
  * The system includes 4 parts:
