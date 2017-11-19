@@ -20,7 +20,7 @@ This system is a "typing" system via Brainwave Control using the Emotiv heaset.
  * 5) Message Window (MsgWin)
 
 ## Platforms ##
-Programing Environmet:
+Programing Environment:
 Visual Studio 2015 + Qt3.5.0_msvc(Qt Creater 4.2.1)
 
 OS: Win10 64bit
