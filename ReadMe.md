@@ -43,3 +43,6 @@ Some instructions for the program setup.
 ## Additional ##
 T9 Dictionary example (Trie tree used in this system):
 https://github.com/chenyingshu/T9-Dictionary
+
+Demo video:
+https://vimeo.com/243664058
