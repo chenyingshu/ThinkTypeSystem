@@ -40,7 +40,7 @@ Some instructions for the program setup.
  - 	#include “IedkErrorCode.h”
  - 	#include "IEmoStateDLL.h"
 
-## Additional ##
+## Additions ##
 T9 Dictionary example (Trie tree used in this system):
 https://github.com/chenyingshu/T9-Dictionary
 
