@@ -1,6 +1,8 @@
 # Think-Type System #
 The MSc(CompSc) Dissertation Project by Yingshu Chen
 
+[[Project Homepage](https://yschen.site/think_type_system)]
+[[Video Demo](https://vimeo.com/243664058)]
 
 ## Briefing ##
 This system is a "typing" system via Brainwave Control using the Emotiv heaset.
