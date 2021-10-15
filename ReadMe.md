@@ -1,7 +1,7 @@
 # Think-Type System #
 The MSc(CompSc) Dissertation Project by Yingshu Chen
 
-[[Project Homepage](https://yschen.site/think_type_system)]
+[[Project Homepage](http://yschen.site/think_type_system)]
 [[Video Demo](https://vimeo.com/243664058)]
 
 ## Briefing ##
